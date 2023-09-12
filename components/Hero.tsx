@@ -22,7 +22,7 @@ function Hero({}: Props) {
         <BackgroundCircles />
         <Image 
         className='relative rounded-full h-40 w-40 mx-auto object-cover'
-        src= {phieeyah2} alt='porfolio-image'
+        src= {phieeyah2} alt='porfolio-image' width={2048} height={3072}
         />
         <div className='z-20'>
 
@@ -38,9 +38,6 @@ function Hero({}: Props) {
             <Link href={'#experience'} >
             <button className='heroButton'>Experience</button>
             </Link>
-            {/* <Link href={'#skills'} >
-            <button className='heroButton'>Skills</button>
-            </Link> */}
             <Link href={'#projects'} >
             <button className='heroButton'>Projects</button>
             </Link>

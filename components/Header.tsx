@@ -26,10 +26,10 @@ export default function Header({}: Props) {
          className='flex flex-row items-center'
          >
             {/* Social Icons */}
-            <SocialIcon url="https://www.linkedin.com/in/sophia-edeki" fgColor="#DAE3F0" bgColor="transparent" />
-            <SocialIcon url="https://github.com/anaesse" fgColor="#DAE3F0" bgColor="transparent" />
-            <SocialIcon url="https://wa.me/message/JWRAYZIHUCIXO1" network="whatsapp" fgColor="#DAE3F0" bgColor="transparent" />
-            <SocialIcon url="https://twitter.com/_sophiesse" fgColor="#DAE3F0" bgColor="transparent" />
+            <SocialIcon url="https://www.linkedin.com/in/sophia-edeki" fgColor="#DAE3F0" bgColor="transparent" target='_blank' />
+            <SocialIcon url="https://github.com/anaesse" fgColor="#DAE3F0" bgColor="transparent" target='_blank'/>
+            <SocialIcon url="https://wa.me/message/JWRAYZIHUCIXO1" network="whatsapp" fgColor="#DAE3F0" bgColor="transparent" target='_blank' />
+            <SocialIcon url="https://twitter.com/_sophiesse" fgColor="#DAE3F0" bgColor="transparent" target='_blank' />
         </motion.div>
         <Link href={'#contact'}>
         <motion.div

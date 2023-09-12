@@ -74,7 +74,7 @@ function Projects({}: Props) {
                       whileInView={{ opacity:1, y:0 }}
                       viewport={{ once: true }}
                       >
-                    <Image src={project.image} alt="" className='h-auto w-[30rem]' />
+                    <Image src={project.image} alt="project-image" height={525} width={1350} className='h-auto w-[30rem]' />
                         </motion.div>  
                     <div className='space-y-2 px-0 lg:px-10 max-w-xl'>
                         <h4  className='text-xl md:text-2xl font-semibold text-center text-[#d1a276] '><span className='underline decoration-[#f7f2c9]'>case study {i + 1} of {projects.length}:</span><br /> {project.title}</h4>

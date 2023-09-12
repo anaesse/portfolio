@@ -28,7 +28,7 @@ export default function About({}: Props) {
         viewport={{once: true}}
         className='flex-shrink-0'
         >
-            <Image src={phieeyah} alt='aboutimage' className='rounded-full h-44 w-44 mx-auto md:w-64 md:h-64 md:rounded-br-[50%] md:rounded-tl-[50%] md:rounded-bl-[50%] md:rounded-tr-[0] my-5 md:my-0'  />
+            <Image src={phieeyah} alt='aboutimage' height={3072} width={2048} className='rounded-full h-44 w-44 mx-auto md:w-64 md:h-64 md:rounded-br-[50%] md:rounded-tl-[50%] md:rounded-bl-[50%] md:rounded-tr-[0] my-5 md:my-0'  />
             </motion.div>
         <div className='px-0 md:pl-10 '>
             <p className='text-[#f7c99e] text-sm md:text-base'>Hi, I&apos;m Phieeyah, a Front-end web developer and IT support Technician with a passion for creating beautiful,functional and user-centered digital experiences.

@@ -1,5 +1,4 @@
 import React from 'react'
-// import phieeyah8 from '../public/assets/phieeyah8.jpg'
 import { FaReact, FaGithub, FaNodeJs, FaBootstrap, FaAngular} from 'react-icons/fa'
 import {SiTailwindcss, SiTypescript, SiHtml5, SiCss3, SiJavascript,SiMongodb, SiDjango, SiPython } from 'react-icons/si'
 type Props = {}

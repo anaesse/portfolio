@@ -34,8 +34,6 @@ export default function WorkExperience({}: Props) {
         {Experience.technologies.map((Tech) => (
            <div  key={Experience.id}>
           <p >{Tech}</p>
-          {/* <p>{Experience.technologies[1]}</p>
-          <p>{Experience.technologies[2]}</p> */}
         </div>
         ))}
         </div>
