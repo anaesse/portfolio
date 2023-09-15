@@ -1,10 +1,10 @@
 import LiIcon from './LiIcon'
 type Props = {}
-const Details = ({type, time, place, info}) => {
+const Details = ({course, time, place, info}) => {
     return <li className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
         <LiIcon />
         <div>
-            <h3 className='capitalize font-bold text-base md:text-2xl text-[#ffaf37]'>{type}</h3>
+            <h3 className='capitalize font-bold text-base md:text-2xl text-[#ffaf37]'>{course}</h3>
             <span className='capitalize font-bold text-xs md:text-sm text-[#d1a276]'>
                 {time} | {place}
             </span>
@@ -23,13 +23,13 @@ function Education({}: Props) {
         
         <ul className='w-full flex flex-col items-start justify-between ml-4'>
             <Details
-                type="Bachelor of Engineering In Computer Engineering"
+                course="Bachelor of Engineering In Computer Engineering"
                 time="2015-2021"
                 place="University of Ilorin"
                 info="Completed a Bachelor's project on IOT, Relevant courses included Embedded systems and IOT, Computer Networks, CyberSecurity, Software Architectures, Software engineering, computer maintenance... "
             />
             <Details
-                type="Online Coursework"
+                course="Online Coursework"
                 time="2018-2023"
                 place="Coursera,CISCO,FreeCodeCamp, Zuri,Programming Hub and Sololearn, "
                 info="Completed Course work in topics such as HTML5, CSS and Javascript Essentials, Google IT Support, IT Basics ... "
