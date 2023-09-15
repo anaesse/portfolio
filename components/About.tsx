@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image';
-import phieeyah from '../public/assets/phieeyah.jpg'
+import phieeyah from '../public/assets/phieeyah.png'
 import Link from 'next/link';
 type Props = {}
 

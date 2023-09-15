@@ -13,10 +13,9 @@ export default function Home() {
   return (
     <main className='h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 bg-[#002336] scrollbar scrollbar-track-[#070706] scrollbar-thumb-[#cbcefa]' >
       <div>
-        <head>
-          <title> portfolio</title>
-        </head>
+        <section>
         < Header />
+        </section>
        <section id='hero' className='snap-start'>
         < Hero />
        </section>
