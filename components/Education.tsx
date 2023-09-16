@@ -1,6 +1,11 @@
 import LiIcon from './LiIcon'
-type Props = {}
-const Details = ({course, time, place, info}) => {
+type Props = {
+    course: string;
+    time: string;
+    place: string;
+    info: string;
+}
+const Details = ({course, time, place, info}: Props) => {
     return <li className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
         <LiIcon />
         <div>
