@@ -1,9 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-// import Skill from './Skill'
 
 type Props = {}
-const Skill = ({name, x, y}) => {
+const Skill = ({name, x, y}: any) => {
   return(
     <motion.div className='flex items-center justify-center rounded-full font-semibold bg-black text-slate-400  shadow-orange-300 cursor-pointer absolute lg:py-2 lg:px-4 sm:text-sm sm:py-1.5 sm:px-3 text-xs p-1 '
         whileHover={{scale:1.05}}
