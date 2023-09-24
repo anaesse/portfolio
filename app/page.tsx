@@ -20,7 +20,7 @@ export default function Home() {
        <section id='about' className='snap-center'>
         < About />
         <Skills />
-    < Education />
+        <Education />
        </section>
        <section id='experience' className='snap-center'>
         < WorkExperience />

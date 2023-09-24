@@ -5,7 +5,7 @@ type Props = {}
 export default function WorkExperience({}: Props) {
   return (
     <div className='min-h-screen flex flex-col justify-evenly items-center w-full mx-auto  overflow-hidden'>
-        <h3 className='mt-72 md:mt-52 lg:mt-32 uppercase tracking-[15px] sm:tracking-[20px] text-blue-300 text-xl sm:text-2xl md:text-3xl py-1 font-bold shadow shadow-slate-400 px-10 '>Experience</h3>
+        <h3 className='mt-56 lg:mt-52 uppercase tracking-[15px] sm:tracking-[20px] text-blue-300 text-xl sm:text-2xl md:text-3xl py-1 font-bold shadow shadow-slate-400 px-10 '>Experience</h3>
     <motion.div 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
@@ -14,7 +14,7 @@ export default function WorkExperience({}: Props) {
            {Experiences.map((Experience) => (
         <div key={Experience.id}>
     <div className='h-[75vh]'>
-    <article className='flex flex-col rounded-[20px] shadow-inner  shadow-slate-300 items-start   flex-shrink-0 w-[310px] h-[95vh] sm:h-[80vh] lg:h-[60vhz] md:w-[500px] lg:w-[600px] md:snap-center bg-[#132e3d3d] px-5  md:px-10  py-10  mx-auto space-y-4  opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200  relative'>
+    <article className='flex flex-col rounded-[20px] shadow-inner  shadow-slate-300 items-start   flex-shrink-0 w-[310px] h-full md:w-[500px] lg:w-[600px] md:snap-center bg-[#132e3d3d] px-5  md:px-10  py-10  mx-auto space-y-4  opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200  relative'>
       <motion.div
       initial={{
         x:-100,

@@ -23,7 +23,7 @@ export const Experiences = [
     technologies:[ <FaReact/>, <SiTailwindcss/> , <SiJavascript/>, <FaGithub/>],
     startdate:"Dec. 2022",
     enddate:"Dec. 2022",
-    summary: "Worked with client to build website from scratch, optimised the website for the user experience,translated UX and business requirements into elogant code solutions, delivered responsive web design project using react."
+    summary: "Worked with client to build website from scratch, optimised the website for the user experience,translated UX and business requirements into elegant code solutions, delivered responsive web design project using react."
   },
   {
     id: "3",
@@ -34,7 +34,7 @@ export const Experiences = [
     technologies:[<FaReact/>,  <FaBootstrap/>, <SiCss3/> ,<SiJavascript/>, <FaGithub/>, <FaNodeJs/>, <SiMongodb/> ],
     startdate:"Oct. 2022",
     enddate:"Nov. 2022",
-    summary: "Responsible for both the front-end and back-end design of website, created the user interface,ensured the website has a reponsive design, ensured information is processed correctly between the server and browser., "
+    summary: "Responsible for both the front-end and back-end design of website, created the user interface,ensured the website had a reponsive design, ensured information is processed correctly between the server and browser., "
   },
   {
     id: "2",
@@ -56,7 +56,7 @@ export const Experiences = [
     technologies:[<SiHtml5/>, <SiCss3/>,<SiJavascript/>,<SiPython/>, <SiDjango/>  ],
     startdate:"May 2022",
     enddate:"Aug. 2022",
-    summary: "Trained as a full-stack developer where i worked on projects using HTML5, CSS3, Javascript, python and django, Worked with a team to build an app that can chunk large files into smaller files."
+    summary: "Trained as a full-stack developer where i worked on projects using HTML5, CSS3, Javascript, python and django, Worked with a team to build an app that can chunk large files into smaller bits."
   },
   {
     id: "4",
@@ -67,7 +67,7 @@ export const Experiences = [
     technologies:[ <SiHtml5/>, <SiCss3/>, <SiJavascript/>,<FaBootstrap/> ],
     startdate:"May 2019",
     enddate:"Oct. 2019",
-    summary: "Worked with a team to maintain the organisations IT infrastructure and networks, install and configure hardware and software systems, respond to service issues and request, provide technical support accross the company,build a website to help other Interns understand how the department works and be more efficient. "
+    summary: "Worked with a team to maintain the organisations IT infrastructure and networks, installed and configured hardware and software systems, responded to service issues and request, provided technical support accross the company, built a website to help other Interns understand how the department works and be more efficient. "
   },
   {
     id: "5",
@@ -77,7 +77,7 @@ export const Experiences = [
     technologies:[  ],
     startdate:"Aug. 2018",
     enddate:"Oct. 2018",
-    summary: "Provided IT support to customers, repaired and replaced equipments, fixed and maintained the hardware and software system of the company and clients, "
+    summary: "Provided IT support to customers, repaired and replaced equipments, fixed and maintained the hardware and software system of the company and clients. "
   }
 ]
 

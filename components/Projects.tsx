@@ -58,7 +58,7 @@ function Projects({}: Props) {
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{ duration: 1.5}}
-        className='flex flex-col text-center md:text-left max-w-full justify-evenly mx-auto items-center  absolute top-28'
+        className='flex flex-col text-center md:text-left max-w-full justify-evenly mx-auto items-center  absolute top-16'
        >
           
             <div className=' w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-[#070706] scrollbar-thumb-[#c7894f]'>
