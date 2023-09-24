@@ -16,38 +16,44 @@ function Projects({}: Props) {
         id: "1",
         title: "Chunk IT",
         image: chunkIt,
-        summary: "A web application that takes in large text files and chunks it into smaller bits.(HTML,CSS,JS,Django)"
+        summary: "A web application that takes in large text files and chunks into smaller bits.",
+        tech: "HTML, CSS, JS, Django"
       },
       {
         id: "2",
         title: "FundusAI",
         image: DAO,
-        summary: "A company's website which informs the users about the services of the company(Jsx,CSS and React)"
+        summary: "A company's website which informs the users about the services of the company.",
+        tech: "CSS, JSx, React"
         
       },
       {
         id: "3",
         title: "Blackjack",
         image: Blackjack,
-        summary: "A fun game. The game is a comparing card game scored by the total points. The highest point wins as long as it doesn't exceed 21(HTML,CSS,JS)"
+        summary: "A fun game. The game is a comparing card game scored by the total points. The highest point wins as long as it doesn't exceed 21.",
+        tech: "HTML, CSS, JS"
       },
       {
         id: "4",
         title: "Faydecor",
         image: UI,
-        summary: "Built a sample UI for a landing page(HTML,CSS,Angular)"
+        summary: "Built a sample UI for a landing page.",
+        tech: "HTML, CSS, Angular"
       },
       {
         id: "5",
         title: "Calculator",
         image: cal,
-        summary: "An online calculator with an animated background(HTML,CSS,JS)"
+        summary: "An online calculator with an animated background.",
+        tech: "HTML, CSS, JS"
       },
       {
         id: "5",
         title: "clock",
         image: clock,
-        summary: "An online clock(HTML,CSS,JS)"
+        summary: "An online clock.",
+        tech: "HTML, CSS, JS"
       },
     ];
   return (
@@ -77,8 +83,9 @@ function Projects({}: Props) {
                     <Image src={project.image} alt="project-image" height={525} width={1350} className='h-auto w-[30rem]' />
                         </motion.div>  
                     <div className='space-y-2 px-0 lg:px-10 max-w-xl'>
-                        <h4  className='text-xl md:text-2xl font-semibold text-center text-[#d1a276] '><span className='underline decoration-[#f7f2c9]'>case study {i + 1} of {projects.length}:</span><br /> {project.title}</h4>
-                        <p className='text-base md:text-lg text-center md:text-justify text-[rgb(196,167,128)]'>{project.summary}</p>
+                        <h4  className='text-lg md:text-xl font-semibold text-center text-[#d1a276] '><span className='underline decoration-[#f7f2c9]'>case study {i + 1} of {projects.length}:</span>   {project.title}</h4>
+                        <p className='text-base md:text-md text-center md:text-justify text-[rgb(196,167,128)]'>{project.summary}</p>
+                        <small className='text-[#6e84cc] py-2 text-[12px]'>{project.tech}</small>
                     </div>
                 </div>
                   </div>

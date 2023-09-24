@@ -25,7 +25,7 @@ function Skills({}: Props) {
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{ duration: 1.5}}
-        className="w-full relative flex items-center justify-center rounded-full bg-circular h-[30vh] sm-[50vh]  md:h-[70vh]  lg:h-[80vh] "
+        className="w-full relative flex items-center justify-center rounded-full bg-circular h-[30vh] sm-[50vh]  md:h-[70vh]"
        >
         <motion.div className='flex items-center justify-center rounded-full font-semibold bg-black text-slate-400 shadow-orange-300 cursor-pointer lg:p-6 md:p-4 text-xs p-2'
         whileHover={{scale:1.05}}
